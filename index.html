@@ -2,19 +2,16 @@
 <html lang="en">
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180871414-1"></script>
 <script>
-    var swa = {
-        pubToken: 'b6ddd9d1-78aa-401a-88f7-7899cbaa3aab',
-        baseUrl: 'https://events.web-analytics.cfapps.eu10.hana.ondemand.com/tracker/',
-        owner: null, 
-        //set this to a function that returns the identifier of the tracked user
-    };
-    (function(){
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.defer=true; g.async=true; g.src=swa.baseUrl+'js/track.js';
-        s.parentNode.insertBefore(g,s);
-     })();
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-180871414-1');
 </script>
+
 
 <title>Page Title</title>
 <meta charset="UTF-8">
